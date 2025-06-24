@@ -7,6 +7,6 @@ categories :
 description : Api Level を変更して System.IO.Ports が使えない問題を解決する。
 ---
 
-![](https://image.icysamon.jp/Unity-Net-Framework.webp)
+![](https://image.icysamon.jp/blog/2024-01/unity-net-framework.webp)
 
 Project Settings → Player → Other Settings → Api Compatibility Level を **.Net Framework** に変更すれば解決できる。

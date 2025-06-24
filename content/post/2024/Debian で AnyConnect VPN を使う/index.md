@@ -25,14 +25,14 @@ sudo systemctl restart NetworkManager
 ## 接続
 ネットワークの設定画面で VPN を追加してください。
 
-![](https://image.icysamon.jp/debian-add-vpn.webp)
+![](https://image.icysamon.jp/blog/2024-06/debian-add-vpn.webp)
 
 そして Multi-protocol VPN client(openconnect) を選択してください。
 
-![](https://image.icysamon.jp/debian-multi-protocol-vpn-client.webp)
+![](https://image.icysamon.jp/blog/2024-06/debian-multi-protocol-vpn-client.webp)
 
 Gateway を編集して IPv6 を無効化してください。
 
-![](https://image.icysamon.jp/debian-ipv6.webp)
+![](https://image.icysamon.jp/blog/2024-06/debian-ipv6.webp)
 
 最後に追加ボタンを押して、AnyConnect VPN の登録画面が出来る。
