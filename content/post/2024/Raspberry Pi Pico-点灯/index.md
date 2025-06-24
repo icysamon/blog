@@ -1,10 +1,11 @@
-+++
-date = '2024-02-14T14:01:00+09:00'
-draft = false
-title = 'Raspberry Pi Pico - 点灯'
-categories = [ "Raspberry Pi Pico" ]
-description = 'Raspberry Pi Pico を点灯した。'
-+++
+---
+date : 2024-02-14T14:01:00+09:00
+draft : false
+title : Raspberry Pi Pico - 点灯
+categories :
+- Raspberry Pi Pico
+description : Raspberry Pi Pico を点灯した。
+---
 
 ```python
 from machine import Pin, Timer

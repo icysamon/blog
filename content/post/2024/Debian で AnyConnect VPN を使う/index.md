@@ -1,6 +1,6 @@
 ---
 date : 2024-06-15T10:38:00+09:00
-draft : true
+draft : false
 title : Debian で AnyConnect VPN を使う
 categories :
     - Linux

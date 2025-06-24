@@ -1,10 +1,11 @@
-+++
-date = '2024-04-11T10:15:00+09:00'
-draft = false
-title = 'Android Studio - ボタンでテキストを変更する'
-categories = [ "Android" ]
-description = 'MainActivity.kt の onCreate() 関数によって実現する。'
-+++
+---
+date : 2024-04-11T10:15:00+09:00
+draft : false
+title : Android Studio - ボタンでテキストを変更する
+categories :
+    - Android
+description : MainActivity.kt の onCreate() 関数によって実現する。
+---
 
 ## activity_main.xml
 activity_main.xml にボタンとテキストを追加し、ID と位置を設定してください。

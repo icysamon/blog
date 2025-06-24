@@ -1,10 +1,12 @@
-+++
-date = '2024-02-07T23:59:00+09:00'
-draft = false
-title = 'Godot - ウェブプログラムが実行出来ないを解決する'
-categories = [ "Godot", "Apache" ]
-description = 'Cross-Origin の設定を変更し問題を解決する。'
-+++
+---
+date : 2024-02-07T23:59:00+09:00
+draft : false
+title : Godot - ウェブプログラムが実行出来ないを解決する
+categories :
+    - Godot
+    - Apache
+description : Cross-Origin の設定を変更し問題を解決する。
+---
 
 ## エラーコード
 ```shell

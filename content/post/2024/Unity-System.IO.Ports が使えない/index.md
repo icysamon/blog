@@ -1,10 +1,11 @@
-+++
-date = '2024-01-01T21:43:00+09:00'
-draft = false
-title = 'Unity - System.IO.Ports が使えない'
-categories = [ "Unity" ]
-description = 'Api Level を変更して System.IO.Ports が使えない問題を解決する。'
-+++
+---
+date : 2024-01-01T21:43:00+09:00
+draft : false
+title : Unity - System.IO.Ports が使えない
+categories :
+    - Unity
+description : Api Level を変更して System.IO.Ports が使えない問題を解決する。
+---
 
 ![](https://image.icysamon.jp/Unity-Net-Framework.webp)
 
