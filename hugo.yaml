@@ -159,13 +159,13 @@ params:
                   limit: 5
             - type: categories
               params:
-                  limit: 10
+                  limit: 20
         page:
             - type: search
             - type: toc
             - type: categories
               params:
-                  limit: 10
+                  limit: 20
 
     opengraph:
         twitter:
