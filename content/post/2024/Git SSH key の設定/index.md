@@ -4,7 +4,7 @@ draft : false
 title : Git SSH Key の設定
 categories :
     - Git
-description : Git を使うには SSH Key は必要だ。
+description : Git を使うには SSH Key が必要だ。
 ---
 
 最初にはパソコンに SSH key があるかないかを確認してください。
