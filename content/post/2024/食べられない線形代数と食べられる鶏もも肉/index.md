@@ -17,5 +17,3 @@ image : https://image.icysamon.jp/blog/2024-06/cooking-breast-meat.webp
 ![](https://image.icysamon.jp/blog/2024-06/amazon-math-book.webp)
 
 そして今日、中華料理の作り方でもも肉料理に挑戦した。味はまあまあかな。
-
-![](https://image.icysamon.jp/blog/2024-06/cooking-breast-meat.webp)

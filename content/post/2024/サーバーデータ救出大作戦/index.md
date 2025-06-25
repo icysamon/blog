@@ -5,7 +5,6 @@ title : サーバーデータ救出大作戦
 categories :
     - 雑記帳
 description : サーバーは死んだ魚目ようになった。
-image : https://image.icysamon.jp/blog/2024-06/bean-curd-mixed-with-chopped-green-onion.webp
 ---
 
 ## 死んだ魚目ようなサーバー
