@@ -9,3 +9,5 @@
 *.webp
 *.mp3
 *.wav
+
+!img/avatar.png

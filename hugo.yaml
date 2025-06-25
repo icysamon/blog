@@ -57,7 +57,7 @@ params:
         avatar:
             enabled: true
             local: true
-            url: https://image.icysamon.jp/avatar/000.png
+            src: img/avatar.png
 
     article:
         math: true
