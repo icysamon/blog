@@ -56,15 +56,15 @@ params:
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
-            local: true
-            src: img/avatar.png
+            local: false
+            src: https://image.icysamon.jp/avatar/000.png
 
     article:
         math: true
         toc: true
         readingTime: true
         license:
-            enabled: true
+            enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
