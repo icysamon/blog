@@ -1,9 +1,10 @@
-+++
-date = '2023-07-08T16:22:00+09:00'
-draft = false
-title = 'STLink エラー localhost:61234: Connection timed out を解決する'
-categories = [ "STM32" ]
-+++
+---
+date : 2023-07-08T16:22:00+09:00
+draft : false
+title : 'STLink エラー localhost:61234: Connection timed out を解決する'
+categories :
+    - STM32
+---
 
 ## 環境
 - STM32CubeIDE 1.12.0

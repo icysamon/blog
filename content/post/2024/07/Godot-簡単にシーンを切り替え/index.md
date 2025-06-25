@@ -1,6 +1,6 @@
 ---
 date : 2024-07-22T14:06:00+09:00
-draft : true
+draft : false
 title : Godot - 簡単にシーンを切り替え
 categories :
     - Godot
