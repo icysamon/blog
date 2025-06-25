@@ -10,4 +10,4 @@
 *.mp3
 *.wav
 
-!assets/img/avatar.png
+!/assets/img/avatar.png
