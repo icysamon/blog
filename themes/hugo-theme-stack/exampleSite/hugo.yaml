@@ -1,26 +1,40 @@
-baseurl: https://blog.icysamon.jp/
-languageCode: ja
+baseurl: https://example.com/
+languageCode: en-us
 theme: hugo-theme-stack
-title: icysamon's blog
-copyright: icysamon
-publishDir : docs
+title: Example Site
+copyright: Example Person
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: ja
+DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: true
+hasCJKLanguage: false
 
 languages:
-    ja:
-        languageName: 日本語
-        title: icysamon's blog
+    en:
+        languageName: English
+        title: Example Site
         weight: 1
         params:
             sidebar:
-                subtitle:
+                subtitle: Example description
+    zh-cn:
+        languageName: 中文
+        title: 演示站点
+        weight: 2
+        params:
+            sidebar:
+                subtitle: 演示说明
+    ar:
+        languageName: عربي
+        languagedirection: rtl
+        title: موقع تجريبي
+        weight: 3
+        params:
+            sidebar:
+                subtitle: وصف تجريبي
 
 services:
     # Change it to your Disqus shortname before using
@@ -31,10 +45,10 @@ services:
         id:
 
 pagination:
-    pagerSize: 10
+    pagerSize: 3
 
 permalinks:
-    post: /post/:slug/
+    post: /p/:slug/
     page: /:slug/
 
 params:
@@ -45,7 +59,7 @@ params:
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2023
+        since: 2020
         customText:
 
     dateFormat:
@@ -53,23 +67,23 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji:
+        emoji: 🍥
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
-            local: false
-            src: https://image.icysamon.jp/avatar/000.png
+            local: true
+            src: img/avatar.png
 
     article:
-        math: true
+        math: false
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         disqusjs:
@@ -160,13 +174,12 @@ params:
                   limit: 5
             - type: categories
               params:
-                  limit: 20
-        page:
-            - type: search
-            - type: toc
-            - type: categories
+                  limit: 10
+            - type: tag-cloud
               params:
-                  limit: 20
+                  limit: 10
+        page:
+            - type: toc
 
     opengraph:
         twitter:
@@ -202,33 +215,17 @@ menu:
     main: []
 
     social:
-        - identifier: apple music
-          name: Apple Music
-          url: https://music.apple.com/jp/artist/icysamon/1808762015
-          weight: 1
-          params:
-              icon: brand-apple
-
-        - identifier: spotify
-          name: Spotify
-          url: https://open.spotify.com/intl-ja/artist/7tk5ryKLzZdGvABO1H0LCx
-          weight: 2
-          params:
-              icon: brand-spotify
-
-        - identifier: blueksy
-          name: Bluesky
-          url: https://bsky.app/profile/icysamon.jp
-          weight: 3
-          params:
-              icon: brand-bluesky
-  
         - identifier: github
           name: GitHub
-          url: https://github.com/icysamon
-          weight: 4
+          url: https://github.com/CaiJimmy/hugo-theme-stack
           params:
               icon: brand-github
+
+        - identifier: twitter
+          name: Twitter
+          url: https://twitter.com
+          params:
+              icon: brand-twitter
 
 related:
     includeNewer: true
