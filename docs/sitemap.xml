@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-06-26T19:46:54+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/hugo/</loc>
+    <lastmod>2025-06-26T19:46:54+09:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/hugo-github-pages-%E3%81%A7-papermod-%E3%81%8C%E6%BD%B0%E3%81%95%E3%82%8C%E3%81%9F%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</loc>
     <lastmod>2025-06-26T19:46:54+09:00</lastmod>
   </url><url>
@@ -10,9 +16,6 @@
   </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-06-26T19:46:54+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-06-14T21:38:00+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/react/</loc>
     <lastmod>2025-06-14T21:38:00+09:00</lastmod>
