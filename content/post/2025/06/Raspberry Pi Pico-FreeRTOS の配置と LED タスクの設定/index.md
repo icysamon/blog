@@ -1,10 +1,10 @@
 ---
-date : 2025-06-13T21:03:00+09:00
-draft : false
-title : Raspberry Pi Pico - FreeRTOS の配置と LED タスクの設定
-categories : 
+date: 2025-06-13T21:03:00+09:00
+draft: false
+title: Raspberry Pi Pico - FreeRTOS の配置と LED タスクの設定
+categories: 
     - Raspberry Pi Pico
-description : Raspberry Pi Pico で FreeRTOS を実行した。
+description: Raspberry Pi Pico で FreeRTOS を実行した。
 ---
 
 ## 事前準備
@@ -79,7 +79,7 @@ void pico_set_led(bool led_on) {
 
 次からは自分で書いた部分。
 
-led_task と言うタスク関数を作成してください。
+`led_task` と言うタスク関数を作成してください。
 
 ```c
 void led_task() {

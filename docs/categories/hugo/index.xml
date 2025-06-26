@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hugo on icysamon&#39;s blog</title>
+        <link>http://localhost:1313/categories/hugo/</link>
+        <description>Recent content in Hugo on icysamon&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <copyright>icysamon</copyright>
+        <lastBuildDate>Thu, 26 Jun 2025 19:46:54 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo-GitHub Pages で PaperMod が潰された問題を解決する</title>
+        <link>http://localhost:1313/post/hugo-github-pages-%E3%81%A7-papermod-%E3%81%8C%E6%BD%B0%E3%81%95%E3%82%8C%E3%81%9F%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</link>
+        <pubDate>Thu, 26 Jun 2025 19:46:54 +0900</pubDate>
+        
+        <guid>http://localhost:1313/post/hugo-github-pages-%E3%81%A7-papermod-%E3%81%8C%E6%BD%B0%E3%81%95%E3%82%8C%E3%81%9F%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</guid>
+        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
+&lt;/h2&gt;&lt;p&gt;最近 WordPress から Hugo に移行したので、PaperMod というテーマを気になってサイトのテーマとして選びた。しかし、ローカルテストの場合が正常に工作しているのに、GitHub Pages にアップロードしたらページのスタイルが潰された。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/hugo-paper-01.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;baseURL&lt;/code&gt; が正常に設定されているので、一時的に原因が分からなくなった。その時、開発ツールでサイトをチェックした後、このエラーコードが発見した。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Failed to find a valid digest in the integrity attribute for resource.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;原因と解決策&#34;&gt;原因と解決策
+&lt;/h2&gt;&lt;p&gt;一言で言えばサブリソース完全性検証に通らなかった。&lt;/p&gt;
+&lt;p&gt;コンフィグファイルで検証機能を無効化して解決する策もあるが、サイトの安全性が下がられる。&lt;/p&gt;
+&lt;p&gt;完全に Wiki に書いた方法で構築したのに、なぜこんな問題が起こされたのかが気になっている。&lt;/p&gt;
+&lt;p&gt;そして様々のことを調べて、この解決策を見つけた。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The best solution I have found so far, If you are building your Hugo site on Windows, in your .github.io GitHub Pages repository, add a .gitattributes file that requests CSS files be checked out with CR/LF line endings with the line &lt;code&gt;*.css text eol=crlf&lt;/code&gt; e.g.&lt;/p&gt;
+&lt;p&gt;Source : &lt;a class=&#34;link&#34; href=&#34;https://github.com/lxndrblz/anatole/issues/114#issuecomment-1079609969&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Failed to find a valid digest in the integrity attribute #114&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;まさかに改行コードの問題だ。&lt;/p&gt;
+&lt;p&gt;この解決策によって、&lt;code&gt;.gitattributes&lt;/code&gt; ファイルを作成して、 &lt;code&gt;*.css text eol=crlf&lt;/code&gt; を中に書いてください。そしてファイルを再アップロードして改行コードを &lt;code&gt;CRLF&lt;/code&gt; に更新すれば解決できる。&lt;/p&gt;
+&lt;p&gt;サイトが正常になった。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/hugo-paper-02.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
