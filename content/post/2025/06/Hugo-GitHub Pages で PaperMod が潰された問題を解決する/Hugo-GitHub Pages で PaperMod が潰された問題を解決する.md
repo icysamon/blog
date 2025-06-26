@@ -1,5 +1,5 @@
 ---
-title: "Hugo-GitHub Pages で PaperMod が潰された問題を解決する"
+title: "Hugo - GitHub Pages で PaperMod が潰された問題を解決する"
 description: '"Failed to find a valid digest in the integrity attribute for resource." という問題を注意したか。'
 date: 2025-06-26T19:46:54+09:00
 categories: Hugo
