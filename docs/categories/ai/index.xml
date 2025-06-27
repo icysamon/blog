@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>AI on icysamon&#39;s blog</title>
-        <link>http://localhost:1313/categories/ai/</link>
+        <link>https://blog.icysamon.jp/categories/ai/</link>
         <description>Recent content in AI on icysamon&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <copyright>icysamon</copyright>
-        <lastBuildDate>Wed, 19 Feb 2025 14:35:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Feb 2025 14:35:00 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Python で X-AI API を使う</title>
-        <link>http://localhost:1313/post/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</link>
+        <link>https://blog.icysamon.jp/post/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</link>
         <pubDate>Wed, 19 Feb 2025 14:35:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+        <guid>https://blog.icysamon.jp/post/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;最近 X-AI が毎月 150 ドルの無料クレジットを配布するイベントを開催しているので X-AI のアカウントを作りました。ただし、条件として個人情報の提供と 5 ドルのチャージが必要なのでご注意してください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/02/x-ai-01.webp&#34;

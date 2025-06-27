@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>雑記帳 on icysamon&#39;s blog</title>
-        <link>http://localhost:1313/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/</link>
+        <link>https://blog.icysamon.jp/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/</link>
         <description>Recent content in 雑記帳 on icysamon&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <copyright>icysamon</copyright>
-        <lastBuildDate>Sun, 08 Jun 2025 17:21:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 08 Jun 2025 17:21:00 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>もう関係ない</title>
-        <link>http://localhost:1313/post/%E3%82%82%E3%81%86%E9%96%A2%E4%BF%82%E3%81%AA%E3%81%84/</link>
+        <link>https://blog.icysamon.jp/post/%E3%82%82%E3%81%86%E9%96%A2%E4%BF%82%E3%81%AA%E3%81%84/</link>
         <pubDate>Sun, 08 Jun 2025 17:21:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E3%82%82%E3%81%86%E9%96%A2%E4%BF%82%E3%81%AA%E3%81%84/</guid>
+        <guid>https://blog.icysamon.jp/post/%E3%82%82%E3%81%86%E9%96%A2%E4%BF%82%E3%81%AA%E3%81%84/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2025/06/travel-01.webp" alt="Featured image of post もう関係ない" /&gt;&lt;p&gt;先日、一年ぶりに中国へ行ってきた。&lt;/p&gt;
 &lt;p&gt;本来は行きたくないが、大学院入試の出願書類のため、仕方がなかった。&lt;/p&gt;
 &lt;p&gt;そして再び済南に行ってきた。&lt;/p&gt;
@@ -169,10 +169,10 @@
         </item>
         <item>
         <title>21への執念</title>
-        <link>http://localhost:1313/post/21%E3%81%B8%E3%81%AE%E5%9F%B7%E5%BF%B5/</link>
+        <link>https://blog.icysamon.jp/post/21%E3%81%B8%E3%81%AE%E5%9F%B7%E5%BF%B5/</link>
         <pubDate>Thu, 10 Apr 2025 21:45:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/21%E3%81%B8%E3%81%AE%E5%9F%B7%E5%BF%B5/</guid>
+        <guid>https://blog.icysamon.jp/post/21%E3%81%B8%E3%81%AE%E5%9F%B7%E5%BF%B5/</guid>
         <description>&lt;p&gt;今日は夢を見た。&lt;/p&gt;
 &lt;p&gt;中国のケーキ屋でケーキを買っている。値段は26元（中国の通貨単位）だったが、見た目が悪かったので、値段を切って21元で買うと店主と合意した。&lt;/p&gt;
 &lt;p&gt;しかし、会計の際、レジのスタッフは最初の値段通り26元を請求した。私はすでに店主と21元まで交渉したと伝えたが、スタッフは嫌な顔をして私を無視し、他のお客さんの会計を優先し続けた。&lt;/p&gt;
@@ -204,10 +204,10 @@
         </item>
         <item>
         <title>東京ゲームダンジョン７</title>
-        <link>http://localhost:1313/post/%E6%9D%B1%E4%BA%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%97/</link>
+        <link>https://blog.icysamon.jp/post/%E6%9D%B1%E4%BA%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%97/</link>
         <pubDate>Sat, 15 Feb 2025 18:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E6%9D%B1%E4%BA%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%97/</guid>
+        <guid>https://blog.icysamon.jp/post/%E6%9D%B1%E4%BA%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%80%E3%83%B3%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%97/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2025/02/tokyo-game-dungeon-01.webp" alt="Featured image of post 東京ゲームダンジョン７" /&gt;&lt;p&gt;今日は東京ゲームダンジョンへ行ってきました！私が行ったのは１日目です。&lt;/p&gt;
 &lt;h2 id=&#34;絶対ロケット防衛主義&#34;&gt;絶対ロケット防衛主義
 &lt;/h2&gt;&lt;iframe src=&#34;https://store.steampowered.com/widget/2854440/&#34; frameborder=&#34;0&#34; width=&#34;100%&#34; height=&#34;190&#34;&gt;&lt;/iframe&gt;
@@ -324,10 +324,10 @@
         </item>
         <item>
         <title>初めての成人健康診査</title>
-        <link>http://localhost:1313/post/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%88%90%E4%BA%BA%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%9F%BB/</link>
+        <link>https://blog.icysamon.jp/post/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%88%90%E4%BA%BA%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%9F%BB/</link>
         <pubDate>Fri, 14 Feb 2025 22:15:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%88%90%E4%BA%BA%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%9F%BB/</guid>
+        <guid>https://blog.icysamon.jp/post/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%88%90%E4%BA%BA%E5%81%A5%E5%BA%B7%E8%A8%BA%E6%9F%BB/</guid>
         <description>&lt;p&gt;今月、家の近くの病院で成人健康診査を受けました。私にとって、日本に定住してから初めての定期健診です。これをきっかけに、日本の医療について多くのことを学びました。&lt;/p&gt;
 &lt;p&gt;事前に電話で予約をして病院に行きました。受付の担当者にマイナンバーと診察券を渡し、情報を確認後受診票と問診票を受け取りました。&lt;/p&gt;
 &lt;p&gt;受診票は主に保険証や住所の情報を記入する必要があり、問診票にはいくつかの身体状況や生活習慣に関する質問項目が書かれています。でも私は保険証ではなくマイナンバーを使ってそしてその中に記号や番号が書いてないのでマイナポータルアプリを開いて調べなければなりませんでした。&lt;/p&gt;
@@ -338,10 +338,10 @@
         </item>
         <item>
         <title>秋葉原と抹茶とスシローと大阪焼</title>
-        <link>http://localhost:1313/post/%E7%A7%8B%E8%91%89%E5%8E%9F%E3%81%A8%E6%8A%B9%E8%8C%B6%E3%81%A8%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC%E3%81%A8%E5%A4%A7%E9%98%AA%E7%84%BC/</link>
+        <link>https://blog.icysamon.jp/post/%E7%A7%8B%E8%91%89%E5%8E%9F%E3%81%A8%E6%8A%B9%E8%8C%B6%E3%81%A8%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC%E3%81%A8%E5%A4%A7%E9%98%AA%E7%84%BC/</link>
         <pubDate>Sun, 02 Feb 2025 23:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E7%A7%8B%E8%91%89%E5%8E%9F%E3%81%A8%E6%8A%B9%E8%8C%B6%E3%81%A8%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC%E3%81%A8%E5%A4%A7%E9%98%AA%E7%84%BC/</guid>
+        <guid>https://blog.icysamon.jp/post/%E7%A7%8B%E8%91%89%E5%8E%9F%E3%81%A8%E6%8A%B9%E8%8C%B6%E3%81%A8%E3%82%B9%E3%82%B7%E3%83%AD%E3%83%BC%E3%81%A8%E5%A4%A7%E9%98%AA%E7%84%BC/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2025/02/food-01.webp" alt="Featured image of post 秋葉原と抹茶とスシローと大阪焼" /&gt;&lt;p&gt;ごちそうさまでした😋&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/02/food-02.webp&#34;
 	
@@ -363,10 +363,10 @@
         </item>
         <item>
         <title>AnkerMake M5C を解体してフィラメントが押し出せずの問題を修復する</title>
-        <link>http://localhost:1313/post/ankermake-m5c-%E3%82%92%E8%A7%A3%E4%BD%93%E3%81%97%E3%81%A6%E3%83%95%E3%82%A3%E3%83%A9%E3%83%A1%E3%83%B3%E3%83%88%E3%81%8C%E6%8A%BC%E3%81%97%E5%87%BA%E3%81%9B%E3%81%9A%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B/</link>
+        <link>https://blog.icysamon.jp/post/ankermake-m5c-%E3%82%92%E8%A7%A3%E4%BD%93%E3%81%97%E3%81%A6%E3%83%95%E3%82%A3%E3%83%A9%E3%83%A1%E3%83%B3%E3%83%88%E3%81%8C%E6%8A%BC%E3%81%97%E5%87%BA%E3%81%9B%E3%81%9A%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B/</link>
         <pubDate>Thu, 12 Dec 2024 21:49:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/ankermake-m5c-%E3%82%92%E8%A7%A3%E4%BD%93%E3%81%97%E3%81%A6%E3%83%95%E3%82%A3%E3%83%A9%E3%83%A1%E3%83%B3%E3%83%88%E3%81%8C%E6%8A%BC%E3%81%97%E5%87%BA%E3%81%9B%E3%81%9A%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B/</guid>
+        <guid>https://blog.icysamon.jp/post/ankermake-m5c-%E3%82%92%E8%A7%A3%E4%BD%93%E3%81%97%E3%81%A6%E3%83%95%E3%82%A3%E3%83%A9%E3%83%A1%E3%83%B3%E3%83%88%E3%81%8C%E6%8A%BC%E3%81%97%E5%87%BA%E3%81%9B%E3%81%9A%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B/</guid>
         <description>&lt;p&gt;うちの AnkerMake M5C のフィラメントが出てこないので今日フィラメントの修復作業をしました。（実はもう三回目の修復作業です。長い時間使えないならフィラメントを切断される問題がありそうです、でも私使ったフィラメントは非公式ので…そのせいかもしれません。）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;『重要』 安全のため解体前に必ず電源線を抜いてください。&lt;/p&gt;&lt;/blockquote&gt;
@@ -463,10 +463,10 @@
         </item>
         <item>
         <title>NT東京に行ってきた</title>
-        <link>http://localhost:1313/post/nt%E6%9D%B1%E4%BA%AC%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</link>
+        <link>https://blog.icysamon.jp/post/nt%E6%9D%B1%E4%BA%AC%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</link>
         <pubDate>Sat, 07 Sep 2024 21:02:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/nt%E6%9D%B1%E4%BA%AC%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
+        <guid>https://blog.icysamon.jp/post/nt%E6%9D%B1%E4%BA%AC%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2024/09/nt-tokyo-04.webp" alt="Featured image of post NT東京に行ってきた" /&gt;&lt;h2 id=&#34;nt東京&#34;&gt;NT東京
 &lt;/h2&gt;&lt;p&gt;今日科学技術館に開催したNT東京に行ってきた。&lt;/p&gt;
 &lt;p&gt;江戸城、参ります！&lt;/p&gt;
@@ -581,10 +581,10 @@
         </item>
         <item>
         <title>初めて隅田川花火大会を見た</title>
-        <link>http://localhost:1313/post/%E5%88%9D%E3%82%81%E3%81%A6%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E3%82%92%E8%A6%8B%E3%81%9F/</link>
+        <link>https://blog.icysamon.jp/post/%E5%88%9D%E3%82%81%E3%81%A6%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E3%82%92%E8%A6%8B%E3%81%9F/</link>
         <pubDate>Sat, 27 Jul 2024 23:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E5%88%9D%E3%82%81%E3%81%A6%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E3%82%92%E8%A6%8B%E3%81%9F/</guid>
+        <guid>https://blog.icysamon.jp/post/%E5%88%9D%E3%82%81%E3%81%A6%E9%9A%85%E7%94%B0%E5%B7%9D%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A%E3%82%92%E8%A6%8B%E3%81%9F/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2024/07/sky-tree-tokyo.webp" alt="Featured image of post 初めて隅田川花火大会を見た" /&gt;&lt;p&gt;約91万人がいると聞かされた、凄いな～&lt;/p&gt;
 &lt;p&gt;久しぶりの花火大会！&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/07/firework.webp&#34;
@@ -599,10 +599,10 @@
         </item>
         <item>
         <title>宇宙に目がないやん</title>
-        <link>http://localhost:1313/post/%E5%AE%87%E5%AE%99%E3%81%AB%E7%9B%AE%E3%81%8C%E3%81%AA%E3%81%84%E3%82%84%E3%82%93/</link>
+        <link>https://blog.icysamon.jp/post/%E5%AE%87%E5%AE%99%E3%81%AB%E7%9B%AE%E3%81%8C%E3%81%AA%E3%81%84%E3%82%84%E3%82%93/</link>
         <pubDate>Fri, 05 Jul 2024 12:15:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E5%AE%87%E5%AE%99%E3%81%AB%E7%9B%AE%E3%81%8C%E3%81%AA%E3%81%84%E3%82%84%E3%82%93/</guid>
+        <guid>https://blog.icysamon.jp/post/%E5%AE%87%E5%AE%99%E3%81%AB%E7%9B%AE%E3%81%8C%E3%81%AA%E3%81%84%E3%82%84%E3%82%93/</guid>
         <description>&lt;p&gt;今日は３Dプリンターでモバイルスタンドを作った！&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/07/3dprint-phone-stand.webp&#34;
 	
@@ -638,10 +638,10 @@
         </item>
         <item>
         <title>金色の液体なのに油じゃない</title>
-        <link>http://localhost:1313/post/%E9%87%91%E8%89%B2%E3%81%AE%E6%B6%B2%E4%BD%93%E3%81%AA%E3%81%AE%E3%81%AB%E6%B2%B9%E3%81%98%E3%82%83%E3%81%AA%E3%81%84/</link>
+        <link>https://blog.icysamon.jp/post/%E9%87%91%E8%89%B2%E3%81%AE%E6%B6%B2%E4%BD%93%E3%81%AA%E3%81%AE%E3%81%AB%E6%B2%B9%E3%81%98%E3%82%83%E3%81%AA%E3%81%84/</link>
         <pubDate>Mon, 01 Jul 2024 22:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E9%87%91%E8%89%B2%E3%81%AE%E6%B6%B2%E4%BD%93%E3%81%AA%E3%81%AE%E3%81%AB%E6%B2%B9%E3%81%98%E3%82%83%E3%81%AA%E3%81%84/</guid>
+        <guid>https://blog.icysamon.jp/post/%E9%87%91%E8%89%B2%E3%81%AE%E6%B6%B2%E4%BD%93%E3%81%AA%E3%81%AE%E3%81%AB%E6%B2%B9%E3%81%98%E3%82%83%E3%81%AA%E3%81%84/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2024/07/fried-rice.webp" alt="Featured image of post 金色の液体なのに油じゃない" /&gt;&lt;p&gt;本日料理は中華チャーハン。&lt;/p&gt;
 &lt;p&gt;でも最初に料理酒を食用油として入れちゃった&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;そしてニンニクや生姜とたまごの投入順序が間違った。&lt;/p&gt;
@@ -652,10 +652,10 @@
         </item>
         <item>
         <title>サーバーデータ救出大作戦</title>
-        <link>http://localhost:1313/post/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%83%87%E3%83%BC%E3%82%BF%E6%95%91%E5%87%BA%E5%A4%A7%E4%BD%9C%E6%88%A6/</link>
+        <link>https://blog.icysamon.jp/post/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%83%87%E3%83%BC%E3%82%BF%E6%95%91%E5%87%BA%E5%A4%A7%E4%BD%9C%E6%88%A6/</link>
         <pubDate>Sat, 29 Jun 2024 17:57:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%83%87%E3%83%BC%E3%82%BF%E6%95%91%E5%87%BA%E5%A4%A7%E4%BD%9C%E6%88%A6/</guid>
+        <guid>https://blog.icysamon.jp/post/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%83%87%E3%83%BC%E3%82%BF%E6%95%91%E5%87%BA%E5%A4%A7%E4%BD%9C%E6%88%A6/</guid>
         <description>&lt;h2 id=&#34;死んだ魚目ようなサーバー&#34;&gt;死んだ魚目ようなサーバー
 &lt;/h2&gt;&lt;p&gt;実は先日、このサイトは死んだ。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/06/server-died-list.webp&#34;
@@ -703,10 +703,10 @@
         </item>
         <item>
         <title>食べられない線形代数と食べられる鶏もも肉</title>
-        <link>http://localhost:1313/post/%E9%A3%9F%E3%81%B9%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0%E3%81%A8%E9%A3%9F%E3%81%B9%E3%82%89%E3%82%8C%E3%82%8B%E9%B6%8F%E3%82%82%E3%82%82%E8%82%89/</link>
+        <link>https://blog.icysamon.jp/post/%E9%A3%9F%E3%81%B9%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0%E3%81%A8%E9%A3%9F%E3%81%B9%E3%82%89%E3%82%8C%E3%82%8B%E9%B6%8F%E3%82%82%E3%82%82%E8%82%89/</link>
         <pubDate>Fri, 28 Jun 2024 12:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E9%A3%9F%E3%81%B9%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0%E3%81%A8%E9%A3%9F%E3%81%B9%E3%82%89%E3%82%8C%E3%82%8B%E9%B6%8F%E3%82%82%E3%82%82%E8%82%89/</guid>
+        <guid>https://blog.icysamon.jp/post/%E9%A3%9F%E3%81%B9%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E7%B7%9A%E5%BD%A2%E4%BB%A3%E6%95%B0%E3%81%A8%E9%A3%9F%E3%81%B9%E3%82%89%E3%82%8C%E3%82%8B%E9%B6%8F%E3%82%82%E3%82%82%E8%82%89/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2024/06/cooking-breast-meat.webp" alt="Featured image of post 食べられない線形代数と食べられる鶏もも肉" /&gt;&lt;p&gt;昨晩アマゾンさんが線形代数の教科書を届いた。&lt;/p&gt;
 &lt;p&gt;今日から線形代数の勉強をしなければならないな&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;でも数学やはり難しいよな、全然食べれない。&lt;/p&gt;
@@ -723,10 +723,10 @@
         </item>
         <item>
         <title>初めての日記</title>
-        <link>http://localhost:1313/post/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%97%A5%E8%A8%98/</link>
+        <link>https://blog.icysamon.jp/post/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%97%A5%E8%A8%98/</link>
         <pubDate>Wed, 19 Jun 2024 12:00:00 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%97%A5%E8%A8%98/</guid>
+        <guid>https://blog.icysamon.jp/post/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AE%E6%97%A5%E8%A8%98/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2024/06/first-diary.webp" alt="Featured image of post 初めての日記" /&gt;&lt;p&gt;毎日普通に過ごし日本語も下手で何を書くのか全然分からんのにやはり日記を書きたいなと思って日記を始めた。&lt;/p&gt;
 &lt;p&gt;一応、聖上の恩情はすべて返したので、中国から解放された。新しい生活はここから始まる。&lt;/p&gt;
 </description>

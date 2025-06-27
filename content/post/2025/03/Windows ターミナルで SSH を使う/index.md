@@ -1,15 +1,16 @@
 ---
-date : 2025-03-01T10:32:00+09:00
-draft : false
-title : Windows ターミナルで SSH を使う
-categories : 
-    - Windows
-description : Windows ターミナルで SSH 機能を実現した。
+date: 2025-03-01T10:32:00+09:00
+draft: false
+title: Windows ターミナルで SSH を使う
+categories: Windows
+description: Windows ターミナルで SSH 機能を実現した。
 ---
 
 ターミナルで以下の内容を入力してください。
 
+```ssh
 ssh <ユーザー名>@<サーバーのアドレス>
+```
 
 例えば、私の場合は
 
