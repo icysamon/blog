@@ -42,14 +42,14 @@ description : Raspberry Pi Pico C/C++ 開発の事前準備である。
 
 > 基板の白いボタンを押しながらUSB線でPCと繋げて自動的にUSBマスストレージデバイスとしてマウントされます。**[1]**
 
-そして [flash_nuke.uf2](https://www.download.icysamon.jp/electronics/raspberry-pi-pico/flash_nuke.uf2) ファイルをダウンロードし、基板のドライブに置いてください。その後基板が自動的にリセットします。
+そして **[flash_nuke.uf2](https://download.icysamon.jp/electronics/flash_nuke.uf2)** ファイルをダウンロードし、基板のドライブに置いてください。その後基板が自動的にリセットします。
 
 リセット後基板とPCの接続を解除して **[1]** の操作を繰り返ししてください。
 
 ### ドライバーをインストール
 Options をクリックして List All Devices を有効し、RP2 Boot (**Interface 1**) を選択してください。
 
-> 必ず Interface 0 ではなく Interface 1 を選択してください、Interface 0 にインストールしたら基板の接続機能は必ず壊されます。
+> :warning: 必ず Interface 0 ではなく **Interface 1** を選択してください、Interface 0 にインストールしたら基板の接続機能は必ず壊されます。
 
 ![](https://image.icysamon.jp/blog/2024/11/raspberry-pi-pico-05.webp) ![](https://image.icysamon.jp/blog/2024/11/raspberry-pi-pico-06.webp)
 
@@ -114,5 +114,5 @@ Visual Studio Code 右下の Run ボタンを押してプロジェクトを実�
 ![](https://image.icysamon.jp/blog/2024/11/raspberry-pi-pico-12.webp)
 
 ### 方法２
-.uf2 ファイルを基板のストレージに置いてください、その後自動的に実行します。
+`.uf2` ファイルを基板のストレージに置いてください、その後自動的に実行します。
 ![](https://image.icysamon.jp/blog/2024/11/raspberry-pi-pico-13.webp)

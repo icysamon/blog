@@ -1301,7 +1301,7 @@
         <guid>https://blog.icysamon.jp/post/ankermake-m5c-%E3%82%92%E8%A7%A3%E4%BD%93%E3%81%97%E3%81%A6%E3%83%95%E3%82%A3%E3%83%A9%E3%83%A1%E3%83%B3%E3%83%88%E3%81%8C%E6%8A%BC%E3%81%97%E5%87%BA%E3%81%9B%E3%81%9A%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E4%BF%AE%E5%BE%A9%E3%81%99%E3%82%8B/</guid>
         <description>&lt;p&gt;うちの AnkerMake M5C のフィラメントが出てこないので今日フィラメントの修復作業をしました。（実はもう三回目の修復作業です。長い時間使えないならフィラメントを切断される問題がありそうです、でも私使ったフィラメントは非公式ので…そのせいかもしれません。）&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;『重要』 安全のため解体前に必ず電源線を抜いてください。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;#x26a0;&amp;#xfe0f; 安全のため解体前に&lt;strong&gt;必ず&lt;/strong&gt;電源線を抜いてください。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/12/printer-01.webp&#34;
 	
 	
@@ -1699,13 +1699,13 @@
 &lt;/h3&gt;&lt;p&gt;別のプロジェクトは既にインストールされた場合、基板のリセットが必要です。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;基板の白いボタンを押しながらUSB線でPCと繋げて自動的にUSBマスストレージデバイスとしてマウントされます。&lt;strong&gt;[1]&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;そして &lt;a class=&#34;link&#34; href=&#34;https://www.download.icysamon.jp/electronics/raspberry-pi-pico/flash_nuke.uf2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;flash_nuke.uf2&lt;/a&gt; ファイルをダウンロードし、基板のドライブに置いてください。その後基板が自動的にリセットします。&lt;/p&gt;
+&lt;p&gt;そして &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://download.icysamon.jp/electronics/flash_nuke.uf2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;flash_nuke.uf2&lt;/a&gt;&lt;/strong&gt; ファイルをダウンロードし、基板のドライブに置いてください。その後基板が自動的にリセットします。&lt;/p&gt;
 &lt;p&gt;リセット後基板とPCの接続を解除して &lt;strong&gt;[1]&lt;/strong&gt; の操作を繰り返ししてください。&lt;/p&gt;
 &lt;h3 id=&#34;ドライバーをインストール&#34;&gt;ドライバーをインストール
 &lt;/h3&gt;&lt;p&gt;Options をクリックして List All Devices を有効し、RP2 Boot (&lt;strong&gt;Interface 1&lt;/strong&gt;) を選択してください。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;必ず Interface 0 ではなく Interface 1 を選択してください、Interface 0 にインストールしたら基板の接続機能は必ず壊されます。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&amp;#x26a0;&amp;#xfe0f; 必ず Interface 0 ではなく &lt;strong&gt;Interface 1&lt;/strong&gt; を選択してください、Interface 0 にインストールしたら基板の接続機能は必ず壊されます。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/11/raspberry-pi-pico-05.webp&#34;
 	
 	
@@ -1823,7 +1823,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;方法２&#34;&gt;方法２
-&lt;/h3&gt;&lt;p&gt;.uf2 ファイルを基板のストレージに置いてください、その後自動的に実行します。
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;.uf2&lt;/code&gt; ファイルを基板のストレージに置いてください、その後自動的に実行します。
 &lt;img src=&#34;https://image.icysamon.jp/blog/2024/11/raspberry-pi-pico-13.webp&#34;
 	
 	
