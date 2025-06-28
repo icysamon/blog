@@ -21,17 +21,17 @@ image : https://image.icysamon.jp/blog/2025/06/travel-01.webp
 
 去年から建ったばかりなのにもう既に放置された人工湖。
 
+![2025](https://image.icysamon.jp/blog/2025/06/travel-04.webp "2025")
+
+去年撮った写真。
+
+![2024](https://image.icysamon.jp/blog/2025/06/travel-03.webp "2024")
+
 工事費が横領されたのか、赤字問題のため政府からの資金が減少されたのか、どっちが原因なのか分からない。
 
 でもこのようなことはもう慣れた、この国にとってよくある話。
 
-2024年
-
-![2024](https://image.icysamon.jp/blog/2025/06/travel-03.webp "2024")
-
-2025年
-
-![2025](https://image.icysamon.jp/blog/2025/06/travel-04.webp "2025")
+---
 
 大学で手続きが完了した後、付近の商業街に来た。
 
