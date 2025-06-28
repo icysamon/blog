@@ -23,7 +23,7 @@ image : https://image.icysamon.jp/blog/2025/06/travel-01.webp
 
 ![2025](https://image.icysamon.jp/blog/2025/06/travel-04.webp "2025")
 
-去年撮った写真。
+そして去年撮った写真。
 
 ![2024](https://image.icysamon.jp/blog/2025/06/travel-03.webp "2024")
 
@@ -66,6 +66,8 @@ image : https://image.icysamon.jp/blog/2025/06/travel-01.webp
 
 {{< youtube ZGllZ8Mvh4Q >}}
 
+---
+
 天津の世紀鐘。
 
 ![](https://image.icysamon.jp/blog/2025/06/travel-11.webp)
@@ -77,6 +79,8 @@ image : https://image.icysamon.jp/blog/2025/06/travel-01.webp
 向こう岸で見ると。
 
 ![](https://image.icysamon.jp/blog/2025/06/travel-13.webp)
+
+---
 
 中国共産党は合法性のため、いつもどこにも政治宣伝がしている。もちろん国際空港にも。
 
