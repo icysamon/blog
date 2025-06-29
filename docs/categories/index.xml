@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <copyright>icysamon</copyright>
-        <lastBuildDate>Thu, 26 Jun 2025 19:46:54 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Jun 2025 23:03:31 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ESP32</title>
+        <link>https://blog.icysamon.jp/categories/esp32/</link>
+        <pubDate>Sat, 28 Jun 2025 23:03:31 +0900</pubDate>
+        
+        <guid>https://blog.icysamon.jp/categories/esp32/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>雑記帳</title>
+        <link>https://blog.icysamon.jp/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/</link>
+        <pubDate>Sat, 28 Jun 2025 23:03:31 +0900</pubDate>
+        
+        <guid>https://blog.icysamon.jp/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Hugo</title>
         <link>https://blog.icysamon.jp/categories/hugo/</link>
         <pubDate>Thu, 26 Jun 2025 19:46:54 +0900</pubDate>
@@ -29,14 +45,6 @@
         <pubDate>Fri, 13 Jun 2025 21:03:00 +0900</pubDate>
         
         <guid>https://blog.icysamon.jp/categories/raspberry-pi-pico/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>雑記帳</title>
-        <link>https://blog.icysamon.jp/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/</link>
-        <pubDate>Sun, 08 Jun 2025 17:21:00 +0900</pubDate>
-        
-        <guid>https://blog.icysamon.jp/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/</guid>
         <description></description>
         </item>
         <item>

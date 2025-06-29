@@ -7,7 +7,75 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <copyright>icysamon</copyright>
-        <lastBuildDate>Thu, 26 Jun 2025 19:46:54 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Jun 2025 23:03:31 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ESP32 のキラキラはどこに行っちゃった</title>
+        <link>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/</link>
+        <pubDate>Sat, 28 Jun 2025 23:03:31 +0900</pubDate>
+        
+        <guid>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/</guid>
+        <description>&lt;img src="https://image.icysamon.jp/blog/2025/06/kirakira-01.webp" alt="Featured image of post ESP32 のキラキラはどこに行っちゃった" /&gt;
+
+
+&lt;iframe src = &#39;https://open.spotify.com/embed/track/1PfpiYudUPmaKnLPgnkbgF&#39;
+    width = &#39;100%&#39;
+    height = &#39;180&#39;
+    frameborder = &#39;0&#39;
+    allowtransparency = &#39;true&#39;
+    allow = &#34;encrypted-media&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;GQuuuuuuX が面白かった。&lt;/p&gt;
+&lt;p&gt;今日マイコン ESP32 の開発環境を構築した。有名なマイコンので私もよく知っているが、使ったことがなかった。&lt;/p&gt;
+&lt;p&gt;本来は一時間ぐらいで完成できると想定したが、予想外の問題が一つ一つあったので、最終には一日掛かった。&lt;/p&gt;
+&lt;p&gt;まあ電子工作でよくある話。&lt;/p&gt;
+&lt;p&gt;中国製のソフトに私が不信感が高いので（例えオープンソースでも）、公式が開発した Espressif-IDE ではなく ESP-IDF を使った VS Code 環境を構築するを選びた。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/kirakira-02.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;最初にはシリアルポートが見つからない問題があったが、このモジュールでは USB-Serial Port 変換機能がないと思って、USB-Serial 変換モジュールを使った。&lt;/p&gt;
+&lt;p&gt;以前 STM32 で開発時使った USB TO TTL モジュールを試したが、うまくいかなかった。公式のドキュメントを見たら &lt;code&gt;GPIO0&lt;/code&gt; と &lt;code&gt;EN&lt;/code&gt; に繋がられる変換モジュールが必要らしい。でもそのモジュールなら私もある。以前買った後から使ったことがないらしいけど。&lt;/p&gt;
+&lt;p&gt;そしてうまく行った。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/kirakira-03.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;でも最後には wacom のペンタブレットの USB-Type B 線を使ったら変換モジュールなしで直接に PC と繋がることができるが分かった。&lt;/p&gt;
+&lt;p&gt;やはり廉価な線がダメかな。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Raspberry Pi Pico より大きいので手元のブレッドボードが使えない、残念。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/kirakira-04.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;一日掛かってようやくプログラムを ESP32 にダウンロードしたが、キラキラ✨（LED 点滅）がない。&lt;/p&gt;
+&lt;p&gt;でもポートモニタリングを開けたら確かにプログラムが正常に工作している。&lt;/p&gt;
+&lt;p&gt;GPIO の設定が間違いと思うがコードはちゃんと &lt;code&gt;BLINK_GPIO&lt;/code&gt; として書いている。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/kirakira-05.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;資料を調べたらその LED は 電源の状態を示すためのものらしい、もしかしてユーザでコントロールことができないのかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Hugo - GitHub Pages で PaperMod が潰された問題を解決する</title>
         <link>https://blog.icysamon.jp/post/hugo-github-pages-%E3%81%A7-papermod-%E3%81%8C%E6%BD%B0%E3%81%95%E3%82%8C%E3%81%9F%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</link>
         <pubDate>Thu, 26 Jun 2025 19:46:54 +0900</pubDate>
