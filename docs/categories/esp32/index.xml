@@ -13,7 +13,8 @@
         <pubDate>Sat, 28 Jun 2025 23:03:31 +0900</pubDate>
         
         <guid>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/</guid>
-        <description>&lt;img src="https://image.icysamon.jp/blog/2025/06/kirakira-01.webp" alt="Featured image of post ESP32 のキラキラはどこに行っちゃった" /&gt;&lt;p&gt;本日にはマイコン ESP32 の開発環境を構築した。有名なマイコンので私もよく知っているが、実際使うのは初めてだ。&lt;/p&gt;
+        <description>&lt;img src="https://image.icysamon.jp/blog/2025/06/kirakira-01.webp" alt="Featured image of post ESP32 のキラキラはどこに行っちゃった" /&gt;&lt;p&gt;本日にはマイコン &lt;a class=&#34;link&#34; href=&#34;https://akizukidenshi.com/catalog/g/g115673/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ESP32-WROOM-32E開発ボード&lt;/a&gt; の開発環境を構築した。有名なマイコンので私もよく知っているが、実際使うのは初めてだ。&lt;/p&gt;
 &lt;p&gt;本来は一時間ぐらいで完成できると想定したが、予想外の問題が一つ一つあったので、最終には一日掛かった。&lt;/p&gt;
 &lt;p&gt;まあ電子工作でよくある話。&lt;/p&gt;
 &lt;p&gt;中国製のソフトに私が不信感が高いので（例えオープンソースでも）、公式が開発した Espressif-IDE ではなく ESP-IDF を使った VS Code 環境を構築するを選びた。&lt;/p&gt;
@@ -26,8 +27,8 @@
 	
 &gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;最初にはシリアルポートが見つからない問題があったが、このモジュールでは USB-Serial Port 変換機能がないと思って、USB-Serial 変換モジュールを使った。&lt;/p&gt;
-&lt;p&gt;以前 STM32 で開発時使った USB to TTL モジュールを試したが、うまくいかなかった。公式のドキュメントを見たら &lt;code&gt;GPIO0&lt;/code&gt; と &lt;code&gt;EN&lt;/code&gt; に繋がられる変換モジュールが必要らしい。でもそのモジュールなら私もある。以前買った後から使ったことがないらしいけど。&lt;/p&gt;
+&lt;p&gt;最初にはシリアルポートが見つからない問題があったが、このボードでは USB-Serial Port 変換機能がないと思って、USB-Serial 変換モジュールを使った。&lt;/p&gt;
+&lt;p&gt;以前 STM32 で開発時使った USB to TTL モジュールを試したが、うまくいかなかった。公式のドキュメントを見たら &lt;code&gt;GPIO0&lt;/code&gt; と &lt;code&gt;EN&lt;/code&gt; に繋がられる変換モジュールが必要らしい。でもそのモジュールなら私もある。以前買った後から使ったことがないけれど。&lt;/p&gt;
 &lt;p&gt;そしてうまく行った。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/kirakira-03.webp&#34;
 	
@@ -61,7 +62,7 @@
 	
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;資料を調べたらその LED は 電源の状態を示すためのものらしい、もしかしてユーザでコントロールことができないのかな。&lt;/p&gt;
+&lt;p&gt;資料を調べたらその LED は電源の状態を示すためのものであるらしい。もしかしてユーザでコントロールことができないのかな。&lt;/p&gt;
 </description>
         </item>
         
