@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ESP32 on icysamon&#39;s blog</title>
+        <link>https://blog.icysamon.jp/categories/esp32/</link>
+        <description>Recent content in ESP32 on icysamon&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <copyright>icysamon</copyright>
+        <lastBuildDate>Sat, 28 Jun 2025 23:03:31 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/esp32/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ESP32 のキラキラはどこに行っちゃった</title>
+        <link>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/</link>
+        <pubDate>Sat, 28 Jun 2025 23:03:31 +0900</pubDate>
+        
+        <guid>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/</guid>
+        <description>&lt;img src="https://image.icysamon.jp/blog/2025/06/kirakira-01.webp" alt="Featured image of post ESP32 のキラキラはどこに行っちゃった" /&gt;
+
+
+&lt;iframe src = &#39;https://open.spotify.com/embed/track/1PfpiYudUPmaKnLPgnkbgF&#39;
+    width = &#39;100%&#39;
+    height = &#39;180&#39;
+    frameborder = &#39;0&#39;
+    allowtransparency = &#39;true&#39;
+    allow = &#34;encrypted-media&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;今日マイコン ESP32 の開発環境を構築した。&lt;/p&gt;
+&lt;p&gt;本来は一時間ぐらいで完成できると想定したが、予想外の問題が一つ一つあったので、最終には一日掛かった。&lt;/p&gt;
+&lt;p&gt;まあ電子工作でよくある話。&lt;/p&gt;
+&lt;p&gt;中国製のソフトに私が不信感が高いので（例えオープンソースでも）、公式が開発した Espressif-IDE ではなく ESP-IDF を使った VS Code 環境を構築するを選びた。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;最初にはシリアルポートが見つからない問題があったが、このモジュールでは USB-Serial Port 変換機能がないと思って、USB-Serial 変換モジュールを使った。&lt;/p&gt;
+&lt;p&gt;以前 STM32 で開発時使った USB TO TTL モジュールを試したが、&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/kirakira-02.webp&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
