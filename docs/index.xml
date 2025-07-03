@@ -7,7 +7,21 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <copyright>icysamon</copyright>
-        <lastBuildDate>Tue, 01 Jul 2025 22:09:19 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 03 Jul 2025 21:23:37 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ESP32 のキラキラがなかった</title>
+        <link>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%8C%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</link>
+        <pubDate>Thu, 03 Jul 2025 21:23:37 +0900</pubDate>
+        
+        <guid>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%8C%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
+        <description>&lt;img src="https://image.icysamon.jp/blog/2025/07/esp32-led-vcc.webp" alt="Featured image of post ESP32 のキラキラがなかった" /&gt;&lt;p&gt;先日 &lt;a class=&#34;link&#34; href=&#34;https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「ESP32 のキラキラはどこに行っちゃった」&lt;/a&gt;という記事が書いたが、まだ結論が出てない。&lt;/p&gt;
+&lt;p&gt;もちろん、私ような&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=Rd3Gu4pQURY&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;「どうなってもいいや」&lt;/a&gt;の人としてはこの問題にもう興味がないので放置したいか、でもこの問題が簡単過ぎでもし解決しないなら「もしかしてこいつ技術力とても低いなのか」と思われるかもしれないので、まあ実際もそうけれど、やはりこの問題を終わらせる方がいいと思う。&lt;/p&gt;
+&lt;p&gt;そして本題に入ろう！原理図を調べて、この基板の唯一の LED はやはり電源と直接繋がっている。GPIO でコントロールのは不可能だ！（ずんだもんの声）&lt;/p&gt;
+&lt;p&gt;以上。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>研究生入学</title>
         <link>https://blog.icysamon.jp/post/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%85%A5%E5%AD%A6/</link>
         <pubDate>Tue, 01 Jul 2025 22:09:19 +0900</pubDate>
