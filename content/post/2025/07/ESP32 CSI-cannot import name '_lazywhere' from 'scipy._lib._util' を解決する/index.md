@@ -11,7 +11,7 @@ draft: false
 categories: ESP32
 ---
 
-## エラーコード
+## エラー
 ```shell
 ImportError: cannot import name '_lazywhere' from 'scipy._lib._util'
 ```
@@ -21,7 +21,7 @@ ImportError: cannot import name '_lazywhere' from 'scipy._lib._util'
 
 1.15.3 バージョンをインストールしたら問題が解決する。
 
-現在の scipy をアンインストールする
+現在の scipy をアンインストールする。
 
 ```shell
 pip uninstall scipy
