@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.icysamon.jp/categories/</loc>
-    <lastmod>2025-07-08T12:17:39+09:00</lastmod>
+    <lastmod>2025-07-09T09:49:44+09:00</lastmod>
   </url><url>
     <loc>https://blog.icysamon.jp/categories/esp32/</loc>
-    <lastmod>2025-07-08T12:17:39+09:00</lastmod>
+    <lastmod>2025-07-09T09:49:44+09:00</lastmod>
   </url><url>
-    <loc>https://blog.icysamon.jp/post/esp32-csi-cannot-import-name-_lazywhere-from-scipy._lib._util-%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</loc>
-    <lastmod>2025-07-08T12:17:39+09:00</lastmod>
+    <loc>https://blog.icysamon.jp/post/esp32-csi-vs-code-%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC-the-cmake_c_compiler-xtensa-esp32-elf-gcc-is-not-a-full-path-and-was-not-found-in-the-path.-%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</loc>
+    <lastmod>2025-07-09T09:49:44+09:00</lastmod>
   </url><url>
     <loc>https://blog.icysamon.jp/</loc>
-    <lastmod>2025-07-08T12:17:39+09:00</lastmod>
+    <lastmod>2025-07-09T09:49:44+09:00</lastmod>
   </url><url>
     <loc>https://blog.icysamon.jp/post/</loc>
+    <lastmod>2025-07-09T09:49:44+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.icysamon.jp/post/esp32-csi-cannot-import-name-_lazywhere-from-scipy._lib._util-%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</loc>
     <lastmod>2025-07-08T12:17:39+09:00</lastmod>
   </url><url>
     <loc>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%8C%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</loc>
