@@ -1,6 +1,6 @@
 ---
-title: 'ESP32 CSI - VS Code のエラー "The CMAKE_C_COMPILER xtensa esp32 elf gcc is not a full path and was not found in the PATH." を解決する'
-description: 私の場合、他2個似ているエラーもある。
+title: 'ESP32 CSI - VS Code エラー "The CMAKE_C_COMPILER xtensa esp32 elf gcc is not a full path and was not found in the PATH." 解決策'
+description: ESP32 CSI を使ったとき様々の不具合があった。
 date: 2025-07-09T09:49:44+09:00
 image: 
 math: 
@@ -35,3 +35,5 @@ the compiler, or to the compiler name if it is in the PATH.
 私の場合、Windows 環境変数の `Path` に `C:\Users\***\.espressif\tools` を追加したら問題が解決された。
 
 `***` はユーザーファイルである。`tools` 前の部分は自分の `.espressif` パスに変更してください。
+
+あとは cmake のキットを未選択に置く必要があるらしい。
