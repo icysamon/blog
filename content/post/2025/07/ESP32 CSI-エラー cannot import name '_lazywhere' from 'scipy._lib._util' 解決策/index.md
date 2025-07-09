@@ -1,5 +1,5 @@
 ---
-title: "ESP32 CSI - cannot import name '_lazywhere' from 'scipy._lib._util' を解決する"
+title: "ESP32 CSI - エラー cannot import name '_lazywhere' from 'scipy._lib._util' 解決策"
 description: "エラー：ImportError: cannot import name '_lazywhere' from 'scipy._lib._util'"
 date: 2025-07-08T12:17:39+09:00
 image: 
