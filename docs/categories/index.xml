@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <copyright>icysamon</copyright>
-        <lastBuildDate>Wed, 09 Jul 2025 09:49:44 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 11 Jul 2025 12:23:11 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI</title>
+        <link>https://blog.icysamon.jp/categories/ai/</link>
+        <pubDate>Fri, 11 Jul 2025 12:23:11 +0900</pubDate>
+        
+        <guid>https://blog.icysamon.jp/categories/ai/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>ESP32</title>
         <link>https://blog.icysamon.jp/categories/esp32/</link>
         <pubDate>Wed, 09 Jul 2025 09:49:44 +0900</pubDate>
@@ -61,14 +69,6 @@
         <pubDate>Sat, 01 Mar 2025 10:32:00 +0900</pubDate>
         
         <guid>https://blog.icysamon.jp/categories/windows/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>AI</title>
-        <link>https://blog.icysamon.jp/categories/ai/</link>
-        <pubDate>Wed, 19 Feb 2025 14:35:00 +0900</pubDate>
-        
-        <guid>https://blog.icysamon.jp/categories/ai/</guid>
         <description></description>
         </item>
         <item>

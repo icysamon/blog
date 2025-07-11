@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.icysamon.jp/categories/ai/</loc>
+    <lastmod>2025-07-11T12:23:11+09:00</lastmod>
+  </url><url>
     <loc>https://blog.icysamon.jp/categories/</loc>
-    <lastmod>2025-07-09T09:49:44+09:00</lastmod>
+    <lastmod>2025-07-11T12:23:11+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.icysamon.jp/</loc>
+    <lastmod>2025-07-11T12:23:11+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.icysamon.jp/post/try-reading-csv-files-with-pandas/</loc>
+    <lastmod>2025-07-11T12:23:11+09:00</lastmod>
+  </url><url>
+    <loc>https://blog.icysamon.jp/post/</loc>
+    <lastmod>2025-07-11T12:23:11+09:00</lastmod>
   </url><url>
     <loc>https://blog.icysamon.jp/categories/esp32/</loc>
     <lastmod>2025-07-09T09:49:44+09:00</lastmod>
   </url><url>
     <loc>https://blog.icysamon.jp/post/esp32-csi-vs-code-%E3%82%A8%E3%83%A9%E3%83%BC-the-cmake_c_compiler-xtensa-esp32-elf-gcc-is-not-a-full-path-and-was-not-found-in-the-path.-%E8%A7%A3%E6%B1%BA%E7%AD%96/</loc>
-    <lastmod>2025-07-09T09:49:44+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.icysamon.jp/</loc>
-    <lastmod>2025-07-09T09:49:44+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.icysamon.jp/post/</loc>
     <lastmod>2025-07-09T09:49:44+09:00</lastmod>
   </url><url>
     <loc>https://blog.icysamon.jp/post/esp32-csi-%E3%82%A8%E3%83%A9%E3%83%BC-cannot-import-name-_lazywhere-from-scipy._lib._util-%E8%A7%A3%E6%B1%BA%E7%AD%96/</loc>
@@ -70,9 +76,6 @@
   </url><url>
     <loc>https://blog.icysamon.jp/post/windows-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%A7-ssh-%E3%82%92%E4%BD%BF%E3%81%86/</loc>
     <lastmod>2025-03-01T10:32:00+09:00</lastmod>
-  </url><url>
-    <loc>https://blog.icysamon.jp/categories/ai/</loc>
-    <lastmod>2025-02-19T14:35:00+09:00</lastmod>
   </url><url>
     <loc>https://blog.icysamon.jp/post/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</loc>
     <lastmod>2025-02-19T14:35:00+09:00</lastmod>

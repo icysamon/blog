@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="エラー：ImportError: cannot import name '_lazywhere' from 'scipy._lib._util'">
-<title>ESP32 CSI - cannot import name &#39;_lazywhere&#39; from &#39;scipy._lib._util&#39; を解決する</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Python の Pandas で CSV ファイルの読み込むを試した。">
+<title>Pandas で CSV ファイルを読む</title>
 
-<link rel='canonical' href='https://blog.icysamon.jp/post/esp32-csi-cannot-import-name-_lazywhere-from-scipy._lib._util-%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/'>
+<link rel='canonical' href='https://blog.icysamon.jp/post/try-reading-csv-files-with-pandas/'>
 
-<link rel="stylesheet" href="/scss/style.min.cfa5b1b0e78d61c00a14173992a1f3fa3b5c1b9fa34d023de959af564e7b19dd.css"><meta property='og:title' content="ESP32 CSI - cannot import name '_lazywhere' from 'scipy._lib._util' を解決する">
-<meta property='og:description' content="エラー：ImportError: cannot import name '_lazywhere' from 'scipy._lib._util'">
-<meta property='og:url' content='https://blog.icysamon.jp/post/esp32-csi-cannot-import-name-_lazywhere-from-scipy._lib._util-%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/'>
+<link rel="stylesheet" href="/scss/style.min.cfa5b1b0e78d61c00a14173992a1f3fa3b5c1b9fa34d023de959af564e7b19dd.css"><meta property='og:title' content="Pandas で CSV ファイルを読む">
+<meta property='og:description' content="Python の Pandas で CSV ファイルの読み込むを試した。">
+<meta property='og:url' content='https://blog.icysamon.jp/post/try-reading-csv-files-with-pandas/'>
 <meta property='og:site_name' content='icysamon&#39;s blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-08T12:17:39&#43;09:00'/><meta property='article:modified_time' content='2025-07-08T12:17:39&#43;09:00'/>
-<meta name="twitter:title" content="ESP32 CSI - cannot import name '_lazywhere' from 'scipy._lib._util' を解決する">
-<meta name="twitter:description" content="エラー：ImportError: cannot import name '_lazywhere' from 'scipy._lib._util'">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-11T12:23:11&#43;09:00'/><meta property='article:modified_time' content='2025-07-11T12:23:11&#43;09:00'/>
+<meta name="twitter:title" content="Pandas で CSV ファイルを読む">
+<meta name="twitter:description" content="Python の Pandas で CSV ファイルの読み込むを試した。">
     </head>
     <body class="
     article-page
@@ -249,8 +249,22 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#エラー">エラー</a></li>
-    <li><a href="#原因と解決策">原因と解決策</a></li>
+    <li><a href="#基本操作">基本操作</a></li>
+    <li><a href="#行操作">行操作</a>
+      <ol>
+        <li><a href="#先頭-10-行を取得">先頭 <code>10</code> 行を取得</a></li>
+        <li><a href="#末尾-10-行を取得">末尾 <code>10</code> 行を取得</a></li>
+        <li><a href="#指定行を取得">指定行を取得</a></li>
+        <li><a href="#表示行数の上限を設定">表示行数の上限を設定</a></li>
+      </ol>
+    </li>
+    <li><a href="#列操作">列操作</a>
+      <ol>
+        <li><a href="#指定列を取得">指定列を取得</a></li>
+        <li><a href="#a-列の値が-0-より大きい行を取得">&ldquo;A&rdquo; 列の値が 0 より大きい行を取得</a></li>
+        <li><a href="#表示列数の上限を設定">表示列数の上限を設定</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -328,7 +342,7 @@
                 Windows
             </a>
         
-            <a href="/categories/ai/" class="font_size_1">
+            <a href="/categories/ai/" class="font_size_2">
                 AI
             </a>
         
@@ -368,8 +382,8 @@
     
     <header class="article-category">
         
-            <a href="/categories/esp32/" >
-                ESP32
+            <a href="/categories/ai/" >
+                AI
             </a>
         
     </header>
@@ -377,12 +391,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/post/esp32-csi-cannot-import-name-_lazywhere-from-scipy._lib._util-%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/">ESP32 CSI - cannot import name &#39;_lazywhere&#39; from &#39;scipy._lib._util&#39; を解決する</a>
+            <a href="/post/try-reading-csv-files-with-pandas/">Pandas で CSV ファイルを読む</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            エラー：ImportError: cannot import name &#39;_lazywhere&#39; from &#39;scipy._lib._util&#39;
+            Python の Pandas で CSV ファイルの読み込むを試した。
         </h3>
         
     </div>
@@ -403,7 +417,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">7月 08, 2025</time>
+                <time class="article-time--published">7月 11, 2025</time>
             </div>
         
 
@@ -418,7 +432,7 @@
 
 
                 <time class="article-time--reading">
-                    読了時間: 1分
+                    読了時間: 2分
                 </time>
             </div>
         
@@ -433,37 +447,164 @@
     <section class="article-content">
     
     
-    <h2 id="エラー">エラー
-</h2><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">ImportError: cannot import name &#39;_lazywhere&#39; from &#39;scipy._lib._util&#39;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="原因と解決策">原因と解決策
-</h2><p>2025年6月23日リリースした scipy 1.16.0 がサポートされていないのが原因である。</p>
-<p>1.15.3 バージョンをインストールしたら問題が解決する。</p>
-<p>現在の scipy をアンインストールする。</p>
+    <h2 id="基本操作">基本操作
+</h2><p><code>pandas</code> の導入。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip uninstall scipy
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>1.15.3 バージョンの scipy をインストールする。</p>
+</div><p>CSV ファイルを読み込む。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip install <span class="nv">scipy</span><span class="o">==</span>1.15.3
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;example.csv&#39;</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
+</div><blockquote>
+<p>ファイルの内容が変更された場合、<code>pd.read_csv()</code> でファイルの再読み込みが必要。</p></blockquote>
+<p>CSV ファイルの内容をプリント。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
+</div><p>出力結果</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">     <span class="n">A</span>  <span class="n">B</span>  <span class="n">C</span>  <span class="n">D</span>  <span class="n">E</span>  <span class="n">F</span>  <span class="n">G</span>  <span class="n">H</span>  <span class="n">I</span>   <span class="n">J</span>   <span class="n">K</span>   <span class="n">L</span>   <span class="n">M</span>   <span class="n">N</span>   <span class="n">O</span>   <span class="n">P</span>   <span class="n">Q</span>   <span class="n">R</span>   <span class="n">S</span>   <span class="n">T</span>   <span class="n">U</span>   <span class="n">V</span>   <span class="n">W</span>   <span class="n">X</span>   <span class="n">Y</span>   <span class="n">Z</span>
+</span></span><span class="line"><span class="cl"><span class="mi">0</span>    <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="mi">1</span>    <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2</span>    <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="mi">3</span>    <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="mi">4</span>    <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="o">..</span>  <span class="o">..</span> <span class="o">..</span> <span class="o">..</span> <span class="o">..</span> <span class="o">..</span> <span class="o">..</span> <span class="o">..</span> <span class="o">..</span> <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>  <span class="o">..</span>
+</span></span><span class="line"><span class="cl"><span class="mi">195</span>  <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="mi">196</span>  <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="mi">197</span>  <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="mi">198</span>  <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span><span class="line"><span class="cl"><span class="mi">199</span>  <span class="mi">1</span>  <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span>  <span class="mi">5</span>  <span class="mi">6</span>  <span class="mi">7</span>  <span class="mi">8</span>  <span class="mi">9</span>  <span class="mi">10</span>  <span class="mi">11</span>  <span class="mi">12</span>  <span class="mi">13</span>  <span class="mi">14</span>  <span class="mi">15</span>  <span class="mi">16</span>  <span class="mi">17</span>  <span class="mi">18</span>  <span class="mi">19</span>  <span class="mi">20</span>  <span class="mi">21</span>  <span class="mi">22</span>  <span class="mi">23</span>  <span class="mi">24</span>  <span class="mi">25</span>  <span class="mi">26</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="行操作">行操作
+</h2><h3 id="先頭-10-行を取得">先頭 <code>10</code> 行を取得
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="末尾-10-行を取得">末尾 <code>10</code> 行を取得
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">tail</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="指定行を取得">指定行を取得
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="mi">64</span><span class="p">:</span><span class="mi">89</span><span class="p">])</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="表示行数の上限を設定">表示行数の上限を設定
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>または</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>設定を変更後、<code>pd.read_csv()</code> でファイルの再読み込みが必要。</p></blockquote>
+<h2 id="列操作">列操作
+</h2><h3 id="指定列を取得">指定列を取得
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">[[</span><span class="s2">&#34;A&#34;</span><span class="p">,</span> <span class="s2">&#34;P&#34;</span><span class="p">]])</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>または</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">4</span><span class="p">:</span><span class="mi">6</span><span class="p">])</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="a-列の値が-0-より大きい行を取得">&ldquo;A&rdquo; 列の値が 0 より大きい行を取得
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">A</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">])</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="表示列数の上限を設定">表示列数の上限を設定
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_columns&#39;</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>または</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s1">&#39;display.max_columns&#39;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>設定を変更後、<code>pd.read_csv()</code> でファイルの再読み込みが必要。</p></blockquote>
+
 </section>
 
 
@@ -513,50 +654,12 @@
             
                 
 <article class="">
-    <a href="/post/esp32-csi-vs-code-%E3%82%A8%E3%83%A9%E3%83%BC-the-cmake_c_compiler-xtensa-esp32-elf-gcc-is-not-a-full-path-and-was-not-found-in-the-path.-%E8%A7%A3%E6%B1%BA%E7%AD%96/">
+    <a href="/post/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">ESP32 CSI - VS Code エラー &#34;The CMAKE_C_COMPILER xtensa esp32 elf gcc is not a full path and was not found in the PATH.&#34; 解決策</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%8C%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="https://image.icysamon.jp/blog/2025/07/esp32-led-vcc.webp" loading="lazy" data-key="" data-hash="https://image.icysamon.jp/blog/2025/07/esp32-led-vcc.webp"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">ESP32 のキラキラがなかった</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
-    <a href="/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="https://image.icysamon.jp/blog/2025/06/kirakira-01.webp" loading="lazy" data-key="" data-hash="https://image.icysamon.jp/blog/2025/06/kirakira-01.webp"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">ESP32 のキラキラはどこに行っちゃった</h2>
+            <h2 class="article-title">Python で X-AI API を使う</h2>
         </div>
     </a>
 </article>
