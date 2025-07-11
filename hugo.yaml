@@ -51,8 +51,8 @@ params:
         customText:
 
     dateFormat:
-        published: 2006, Jan 02
-        lastUpdated: 2006, Jan 02, 15:04 MST
+        published: 2006年Jan2日
+        lastUpdated: 2006年Jan2日, 15:04 MST
 
     sidebar:
         emoji:
@@ -67,7 +67,7 @@ params:
         toc: true
         readingTime: true
         license:
-            enabled: true
+            enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -162,13 +162,13 @@ params:
                   limit: 5
             - type: categories
               params:
-                  limit: 20
+                  limit: 10
         page:
             - type: search
             - type: toc
             - type: categories
               params:
-                  limit: 20
+                  limit: 10
 
     opengraph:
         twitter:
