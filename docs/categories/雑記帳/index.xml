@@ -9,10 +9,10 @@
         <copyright>icysamon</copyright>
         <lastBuildDate>Thu, 03 Jul 2025 21:23:37 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/%E9%9B%91%E8%A8%98%E5%B8%B3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>ESP32 のキラキラがなかった</title>
-        <link>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%8C%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</link>
+        <link>https://blog.icysamon.jp/post/there-was-no-esp32-blink/</link>
         <pubDate>Thu, 03 Jul 2025 21:23:37 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%8C%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F/</guid>
+        <guid>https://blog.icysamon.jp/post/there-was-no-esp32-blink/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2025/07/esp32-led-vcc.webp" alt="Featured image of post ESP32 のキラキラがなかった" /&gt;&lt;p&gt;先日 &lt;a class=&#34;link&#34; href=&#34;https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;「ESP32 のキラキラはどこに行っちゃった」&lt;/a&gt;という記事が書いたが、まだ結論が出てない。&lt;/p&gt;
 &lt;p&gt;もちろん、私ような&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=Rd3Gu4pQURY&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -23,10 +23,10 @@
         </item>
         <item>
         <title>研究生入学</title>
-        <link>https://blog.icysamon.jp/post/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%85%A5%E5%AD%A6/</link>
+        <link>https://blog.icysamon.jp/post/enrolled-as-a-research-student/</link>
         <pubDate>Tue, 01 Jul 2025 22:09:19 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/%E7%A0%94%E7%A9%B6%E7%94%9F%E5%85%A5%E5%AD%A6/</guid>
+        <guid>https://blog.icysamon.jp/post/enrolled-as-a-research-student/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2025/07/kennkixyuusei-01.webp" alt="Featured image of post 研究生入学" /&gt;&lt;p&gt;今日、研究生として東京工科大学を入学した。&lt;/p&gt;
 &lt;p&gt;5月7日先生へのメールから2ヶ月経った。途中には様々の面談、帰国などのことがあったが、ようやく思う通りに日本の大学に入った。そして研究内容も私が続きたいの IoT 分野と電子工作。&lt;/p&gt;
 &lt;p&gt;でもこんなに早く入学するのは流石に思えなかった。修士出願まであと1ヶ月なのに。&lt;/p&gt;

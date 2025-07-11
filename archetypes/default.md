@@ -1,13 +1,13 @@
 ---
-title: {{ replace .Name "-" " " | title }}
-slug:
-description:
+title: ""
+slug: {{ replace .Name " " "-" }}
+description: ""
 date: {{ .Date }}
 categories:
 image:
 math: false
 license: false
 hidden: false
-comments: false
-draft: false
+comments: true
+draft: true
 ---

@@ -1,14 +1,15 @@
 ---
 title: "ESP32 のキラキラがなかった"
-description: 最後はどうなっても Happy Ending.
+slug: there-was-no-esp32-blink
+description: "最後はどうなっても Happy Ending."
 date: 2025-07-03T21:23:37+09:00
+categories: [雑記帳, ESP32]
 image: https://image.icysamon.jp/blog/2025/07/esp32-led-vcc.webp
 math: 
-license: 
+license: false
 hidden: false
 comments: true
 draft: false
-categories: [雑記帳, ESP32]
 ---
 
 先日 [「ESP32 のキラキラはどこに行っちゃった」](https://blog.icysamon.jp/post/esp32-%E3%81%AE%E3%82%AD%E3%83%A9%E3%82%AD%E3%83%A9%E3%81%AF%E3%81%A9%E3%81%93%E3%81%AB%E8%A1%8C%E3%81%A3%E3%81%A1%E3%82%83%E3%81%A3%E3%81%9F/)という記事が書いたが、まだ結論が出てない。

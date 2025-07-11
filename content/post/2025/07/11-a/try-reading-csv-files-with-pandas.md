@@ -1,14 +1,14 @@
 ---
-title: Pandas で CSV ファイルを読む
+title: "Pandas で CSV ファイルを読む"
 slug: try-reading-csv-files-with-pandas
-description: Python の Pandas で CSV ファイルの読み込むを試した。
+description: "Python の Pandas で CSV ファイルの読み込むを試した。"
 date: 2025-07-11T12:23:11+09:00
 categories: AI
 image:
 math: false
-license:
+license: false
 hidden: false
-comments: false
+comments: true
 draft: false
 ---
 

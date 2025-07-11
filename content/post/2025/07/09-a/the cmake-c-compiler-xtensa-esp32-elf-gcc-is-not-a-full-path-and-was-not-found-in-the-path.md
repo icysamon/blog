@@ -1,14 +1,16 @@
 ---
-title: 'ESP32 CSI - VS Code エラー "The CMAKE_C_COMPILER xtensa esp32 elf gcc is not a full path and was not found in the PATH." 解決策'
-description: ESP32 CSI を使ったとき様々の不具合があった。
+title: "ESP32 CSI - VS Code エラー \"The CMAKE_C_COMPILER xtensa esp32 elf gcc is not a full path and was not found in the PATH.\" を解決"
+slug: the cmake-c-compiler-xtensa-esp32-elf-gcc-is-not-a-full-path-and-was-not-found-in-the-path
+description: "ESP32 CSI を使ったとき様々の不具合があった。"
 date: 2025-07-09T09:49:44+09:00
-image: 
-math: 
-license: 
-hidden: false
-comments: false
-draft: false
 categories: ESP32
+image: 
+math: false
+license: false
+hidden: false
+comments: true
+draft: false
+
 ---
 
 ## エラー
