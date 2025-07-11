@@ -33,7 +33,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;ファイルの内容が変更された場合、&lt;code&gt;pd.read_csv()&lt;/code&gt; でファイルの再読み込みが必要。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;ヘッダーがない場合、&lt;code&gt;pd.read_csv(example.csv, header=None)&lt;/code&gt; にしてください。&lt;/li&gt;
+&lt;li&gt;ファイルの内容が変更された場合、&lt;code&gt;pd.read_csv()&lt;/code&gt; でファイルの再読み込みが必要。&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
 &lt;p&gt;CSV ファイルの内容をプリント。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

@@ -6,7 +6,7 @@ date: 2025-07-11T12:23:11+09:00
 categories: AI
 image:
 math: false
-license: default
+license:
 hidden: false
 comments: false
 draft: false
@@ -23,7 +23,8 @@ CSV ファイルを読み込む。
 df = pd.read_csv('example.csv')
 ```
 
-> ファイルの内容が変更された場合、`pd.read_csv()` でファイルの再読み込みが必要。
+> - ヘッダーがない場合、`pd.read_csv(example.csv, header=None)` にしてください。
+> - ファイルの内容が変更された場合、`pd.read_csv()` でファイルの再読み込みが必要。
 
 CSV ファイルの内容をプリント。
 ```python
