@@ -1,10 +1,10 @@
 ---
 title: "ESP32 のキラキラはどこに行っちゃった"
-slug: where-did-the-blink-go-with-the-esp32.md
+slug: "where-did-the-blink-go-with-the-esp32"
 description: "初めて ESP32 を試した。"
-date: 2025-06-28T23:03:31+09:00
-categories: [雑記帳, ESP32]
-image: https://image.icysamon.jp/blog/2025/06/kirakira-01.webp
+date: "2025-06-28T23:03:31+09:00"
+categories: ["雑記帳", "ESP32"]
+image: "https://image.icysamon.jp/blog/2025/06/kirakira-01.webp"
 math: false
 license: false
 hidden: false

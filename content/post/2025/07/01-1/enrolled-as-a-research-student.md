@@ -1,10 +1,10 @@
 ---
 title: "研究生入学"
-slug: enrolled-as-a-research-student
+slug: "enrolled-as-a-research-student"
 description: 研究生として入学した。
-date: 2025-07-01T22:09:19+09:00
-categories: 雑記帳
-image: https://image.icysamon.jp/blog/2025/07/kennkixyuusei-01.webp
+date: "2025-07-01T22:09:19+09:00"
+categories: ["雑記帳"]
+image: "https://image.icysamon.jp/blog/2025/07/kennkixyuusei-01.webp"
 math: false
 license: false
 hidden: false

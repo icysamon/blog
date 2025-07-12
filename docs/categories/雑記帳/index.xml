@@ -53,10 +53,10 @@
         </item>
         <item>
         <title>ESP32 のキラキラはどこに行っちゃった</title>
-        <link>https://blog.icysamon.jp/2025/06/where-did-the-blink-go-with-the-esp32.md/</link>
+        <link>https://blog.icysamon.jp/2025/06/where-did-the-blink-go-with-the-esp32/</link>
         <pubDate>Sat, 28 Jun 2025 23:03:31 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/2025/06/where-did-the-blink-go-with-the-esp32.md/</guid>
+        <guid>https://blog.icysamon.jp/2025/06/where-did-the-blink-go-with-the-esp32/</guid>
         <description>&lt;img src="https://image.icysamon.jp/blog/2025/06/kirakira-01.webp" alt="Featured image of post ESP32 のキラキラはどこに行っちゃった" /&gt;&lt;p&gt;本日にはマイコン &lt;a class=&#34;link&#34; href=&#34;https://akizukidenshi.com/catalog/g/g115673/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;ESP32-WROOM-32E開発ボード&lt;/a&gt; の開発環境を構築した。有名なマイコンので私もよく知っているが、実際使うのは初めてだ。&lt;/p&gt;
 &lt;p&gt;本来は一時間ぐらいで完成できると想定したが、予想外の問題が一つ一つあったので、最終には一日掛かった。&lt;/p&gt;

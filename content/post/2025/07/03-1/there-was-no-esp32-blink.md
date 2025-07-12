@@ -1,10 +1,10 @@
 ---
 title: "ESP32 のキラキラがなかった"
-slug: there-was-no-esp32-blink
+slug: "there-was-no-esp32-blink"
 description: "最後はどうなっても Happy Ending."
-date: 2025-07-03T21:23:37+09:00
-categories: [雑記帳, ESP32]
-image: https://image.icysamon.jp/blog/2025/07/esp32-led-vcc.webp
+date: "2025-07-03T21:23:37+09:00"
+categories: ["雑記帳", "ESP32"]
+image: "https://image.icysamon.jp/blog/2025/07/esp32-led-vcc.webp"
 math: 
 license: false
 hidden: false
