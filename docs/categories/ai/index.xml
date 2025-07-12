@@ -9,10 +9,10 @@
         <copyright>icysamon</copyright>
         <lastBuildDate>Fri, 11 Jul 2025 12:23:11 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/ai/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Pandas で CSV ファイルを読む</title>
-        <link>https://blog.icysamon.jp/post/try-reading-csv-files-with-pandas/</link>
+        <link>https://blog.icysamon.jp/2025/07/11/try-reading-csv-files-with-pandas/</link>
         <pubDate>Fri, 11 Jul 2025 12:23:11 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/try-reading-csv-files-with-pandas/</guid>
+        <guid>https://blog.icysamon.jp/2025/07/11/try-reading-csv-files-with-pandas/</guid>
         <description>&lt;h2 id=&#34;基本操作&#34;&gt;基本操作
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;pandas&lt;/code&gt; の導入。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -177,10 +177,10 @@
         </item>
         <item>
         <title>Python で X-AI API を使う</title>
-        <link>https://blog.icysamon.jp/post/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</link>
+        <link>https://blog.icysamon.jp/2025/02/19/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</link>
         <pubDate>Wed, 19 Feb 2025 14:35:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+        <guid>https://blog.icysamon.jp/2025/02/19/python-%E3%81%A7-x-ai-api-%E3%82%92%E4%BD%BF%E3%81%86/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;最近 X-AI が毎月 150 ドルの無料クレジットを配布するイベントを開催しているので X-AI のアカウントを作りました。ただし、条件として個人情報の提供と 5 ドルのチャージが必要なのでご注意してください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/02/x-ai-01.webp&#34;

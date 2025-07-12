@@ -9,10 +9,10 @@
         <copyright>icysamon</copyright>
         <lastBuildDate>Thu, 26 Jun 2025 19:46:54 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo - GitHub Pages で PaperMod が潰された問題を解決する</title>
-        <link>https://blog.icysamon.jp/post/hugo-github-pages-%E3%81%A7-papermod-%E3%81%8C%E6%BD%B0%E3%81%95%E3%82%8C%E3%81%9F%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</link>
+        <link>https://blog.icysamon.jp/2025/06/26/hugo-github-pages-%E3%81%A7-papermod-%E3%81%8C%E6%BD%B0%E3%81%95%E3%82%8C%E3%81%9F%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</link>
         <pubDate>Thu, 26 Jun 2025 19:46:54 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/hugo-github-pages-%E3%81%A7-papermod-%E3%81%8C%E6%BD%B0%E3%81%95%E3%82%8C%E3%81%9F%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</guid>
+        <guid>https://blog.icysamon.jp/2025/06/26/hugo-github-pages-%E3%81%A7-papermod-%E3%81%8C%E6%BD%B0%E3%81%95%E3%82%8C%E3%81%9F%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%81%99%E3%82%8B/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;最近 WordPress から Hugo に移行したので、PaperMod というテーマを気になってサイトのテーマとして選びた。しかし、ローカルテストの場合が正常に工作しているのに、GitHub Pages にアップロードしたらページのスタイルが潰された。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2025/06/hugo-paper-01.webp&#34;

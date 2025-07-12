@@ -9,10 +9,10 @@
         <copyright>icysamon</copyright>
         <lastBuildDate>Wed, 31 Jul 2024 13:27:00 +0900</lastBuildDate><atom:link href="https://blog.icysamon.jp/categories/android/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Kotlin - 他のファイルで MainActivity の API を使う</title>
-        <link>https://blog.icysamon.jp/post/kotlin-%E4%BB%96%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A7-mainactivity-%E3%81%AE-api-%E3%82%92%E4%BD%BF%E3%81%86/</link>
+        <link>https://blog.icysamon.jp/2024/07/31/kotlin-%E4%BB%96%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A7-mainactivity-%E3%81%AE-api-%E3%82%92%E4%BD%BF%E3%81%86/</link>
         <pubDate>Wed, 31 Jul 2024 13:27:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/kotlin-%E4%BB%96%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A7-mainactivity-%E3%81%AE-api-%E3%82%92%E4%BD%BF%E3%81%86/</guid>
+        <guid>https://blog.icysamon.jp/2024/07/31/kotlin-%E4%BB%96%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A7-mainactivity-%E3%81%AE-api-%E3%82%92%E4%BD%BF%E3%81%86/</guid>
         <description>&lt;p&gt;最初にはファイルを MainActivity と同じパッケージ環境に連携してください。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -44,10 +44,10 @@
         </item>
         <item>
         <title>Kotlin - Bluetooth をオンにする</title>
-        <link>https://blog.icysamon.jp/post/kotlin-bluetooth-%E3%82%92%E3%82%AA%E3%83%B3%E3%81%AB%E3%81%99%E3%82%8B/</link>
+        <link>https://blog.icysamon.jp/2024/07/30/kotlin-bluetooth-%E3%82%92%E3%82%AA%E3%83%B3%E3%81%AB%E3%81%99%E3%82%8B/</link>
         <pubDate>Tue, 30 Jul 2024 18:31:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/kotlin-bluetooth-%E3%82%92%E3%82%AA%E3%83%B3%E3%81%AB%E3%81%99%E3%82%8B/</guid>
+        <guid>https://blog.icysamon.jp/2024/07/30/kotlin-bluetooth-%E3%82%92%E3%82%AA%E3%83%B3%E3%81%AB%E3%81%99%E3%82%8B/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;この操作をする前に Bluetooth 権限を取得する必要がある。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://icysamon.github.io/blog/post/kotlin-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E6%A8%A9%E9%99%90%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -138,10 +138,10 @@
         </item>
         <item>
         <title>Kotlin - アプリの権限を取得する</title>
-        <link>https://blog.icysamon.jp/post/kotlin-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E6%A8%A9%E9%99%90%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B/</link>
+        <link>https://blog.icysamon.jp/2024/07/30/kotlin-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E6%A8%A9%E9%99%90%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B/</link>
         <pubDate>Tue, 30 Jul 2024 18:10:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/kotlin-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E6%A8%A9%E9%99%90%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B/</guid>
+        <guid>https://blog.icysamon.jp/2024/07/30/kotlin-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E6%A8%A9%E9%99%90%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B/</guid>
         <description>&lt;p&gt;ここでは BLUETOOTH_CONNECT 権限を例にする。&lt;/p&gt;
 &lt;h2 id=&#34;権限ランチャーを作る&#34;&gt;権限ランチャーを作る
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -241,10 +241,10 @@
         </item>
         <item>
         <title>Pixel の開発者モードを有効化する</title>
-        <link>https://blog.icysamon.jp/post/pixel-%E3%81%AE%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%99%E3%82%8B/</link>
+        <link>https://blog.icysamon.jp/2024/07/28/pixel-%E3%81%AE%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%99%E3%82%8B/</link>
         <pubDate>Sun, 28 Jul 2024 23:26:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/pixel-%E3%81%AE%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%99%E3%82%8B/</guid>
+        <guid>https://blog.icysamon.jp/2024/07/28/pixel-%E3%81%AE%E9%96%8B%E7%99%BA%E8%80%85%E3%83%A2%E3%83%BC%E3%83%89%E3%82%92%E6%9C%89%E5%8A%B9%E5%8C%96%E3%81%99%E3%82%8B/</guid>
         <description>&lt;p&gt;設定 &amp;gt; デバイス情報 &amp;gt; ビルド番号を7回連続タップしてください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/07/pixel-developer.webp&#34;
 	
@@ -258,10 +258,10 @@
         </item>
         <item>
         <title>Android Studio - ボタンで View の位置を変更する</title>
-        <link>https://blog.icysamon.jp/post/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%A7-view-%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B/</link>
+        <link>https://blog.icysamon.jp/2024/07/27/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%A7-view-%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B/</link>
         <pubDate>Sat, 27 Jul 2024 10:29:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%A7-view-%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B/</guid>
+        <guid>https://blog.icysamon.jp/2024/07/27/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%A7-view-%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B/</guid>
         <description>&lt;p&gt;activity_main.xml に ImageView を追加してください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/07/android-studio-activity-main.webp&#34;
 	
@@ -290,10 +290,10 @@
         </item>
         <item>
         <title>Android Studio - ボタンクリックイベント</title>
-        <link>https://blog.icysamon.jp/post/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</link>
+        <link>https://blog.icysamon.jp/2024/07/26/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</link>
         <pubDate>Fri, 26 Jul 2024 23:02:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</guid>
+        <guid>https://blog.icysamon.jp/2024/07/26/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/</guid>
         <description>&lt;p&gt;activity_main にボタンを追加して、Attributes で onClick イベント名前を設定してください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/07/android-studio-onclick.webp&#34;
 	
@@ -329,10 +329,10 @@
         </item>
         <item>
         <title>Android Studio - シミュレーションデバイスを追加する</title>
-        <link>https://blog.icysamon.jp/post/android-studio-%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/</link>
+        <link>https://blog.icysamon.jp/2024/07/24/android-studio-%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/</link>
         <pubDate>Wed, 24 Jul 2024 18:51:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/android-studio-%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/</guid>
+        <guid>https://blog.icysamon.jp/2024/07/24/android-studio-%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B/</guid>
         <description>&lt;p&gt;Tools &amp;gt; Device Manager を移動して、プラスで Create Virtual Device を選択してください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/07/android-studio-device-manager.webp&#34;
 	
@@ -355,10 +355,10 @@
         </item>
         <item>
         <title>Android Studio - ボタンでテキストを変更する</title>
-        <link>https://blog.icysamon.jp/post/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%A7%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B/</link>
+        <link>https://blog.icysamon.jp/2024/04/11/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%A7%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B/</link>
         <pubDate>Thu, 11 Apr 2024 10:15:00 +0900</pubDate>
         
-        <guid>https://blog.icysamon.jp/post/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%A7%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B/</guid>
+        <guid>https://blog.icysamon.jp/2024/04/11/android-studio-%E3%83%9C%E3%82%BF%E3%83%B3%E3%81%A7%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B/</guid>
         <description>&lt;h2 id=&#34;activity_mainxml&#34;&gt;activity_main.xml
 &lt;/h2&gt;&lt;p&gt;activity_main.xml にボタンとテキストを追加し、ID と位置を設定してください。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://image.icysamon.jp/blog/2024/04/android-studio-change-text-with-button.webp&#34;
