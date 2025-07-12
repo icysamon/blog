@@ -142,6 +142,13 @@ menu:
           params: 
               icon: archives
               newTab: false
+        - identifier: link
+          name: リンク
+          url: /link/
+          weight: -70
+          params: 
+              icon: link
+              newTab: false
 
     social:
         - identifier: blueksy
